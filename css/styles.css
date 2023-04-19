@@ -1,15 +1,43 @@
 /*
 Colors used:
-Primary Color (Coral): #F9584B;
-Secondary Color (lightcoral): #FB9D95;
+Primary Color (Orange): #FF7F50;
+Secondary Color (pink): #FF4252;
 */
+
+* {
+  box-sizing: border-box;
+}
 header {
-    background-color: #FB9D95;
+    background-color: #FF7F50;
+    text-align: center;
+    padding: 10px 0;
+	  box-shadow: 3px 9px 38px rgba(0, 0, 0, 0.8);
+    position: relative;  
+    width: 100%;
+}
+  .logo {
+    max-width: 250px;
   }
-  header {
-    background-color: #FB9D95;
-    padding: 10px;
+  nav > ul {   
+    list-style-type: none;
+    padding: 0;
+  } 
+  nav > ul > li {
+    display: inline-block;
   }
+  nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+  }
+  #hero {
+    background-color: white;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+  
 body {font-family: 'Montserrat', sans-serif;
   }
 body {background-color: lightcoral;
@@ -29,6 +57,7 @@ body {
   h1 {
     font-size: 2.75em;
     font-weight: 700;
+    color:#FF4252;
   }
   
   h2 {
@@ -52,20 +81,12 @@ body {
     text-decoration: none; /* No underlining */
   }
   a:hover {
-    color: white;
-    text-decoration: underline; /* Underlining when hovering over a link */
-  }
-  a:visited { /* visited link */
-    color: white;
+    color: #FF4252;
   }
   a:active { /* selected link */
-    color: white;
+    color: #FF4252;
   }
-  a:hover,
-a:focus {
-  color: navy;
-  text-decoration: underline;
-}
+
   .button {
     display: inline-block; 
     background-color: #ff7f50;
@@ -78,11 +99,29 @@ a:focus {
   }
   .button.contact {
     background-color: transparent;
-    color: #ff7f50;
+    color: white;
     text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    border: 2px solid white;
   }
   .button.contact:hover {
-    background-color: #ff7f50;
     color: #ffffff;
   }
+  /* Layout styling */
+  .container {
+    padding: 0 15px;
+  }
+  .row {
+    margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  }
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+  #hero h1 {
+    text-align: center; /* Centers text */
+  }
+  footer {
+    background-color: #FF7F50;
+    text-align: left;
+    padding: 10px 0;
+    position: relative;  
+}
+
+  

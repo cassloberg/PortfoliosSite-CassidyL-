@@ -20,10 +20,10 @@
   </head>
   <body>
     <header>
-      <div>
-        <a href="."><h2>Cassidy Loberg</h2></a>
+      <div class="container">
+        <a href="logo"><h2>Cassidy Loberg</h2></a>
         <nav>
-          <ul>
+          <ul class="navigation">
             <li><a href="index.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
@@ -32,19 +32,24 @@
       </div>
     </header>
     <main>
-       <div>
-        <div>
+       <div id="hero">
+        <div class="container"></div>
           <h1>Hi, my name  is Cassidy Loberg.</h1>
-          <p>I am a UI designer based out of Illinois.
+          <p>I am a junior UX/UI designer with a background in customer service. I am
+            passionate about creating user-centric designs that are both aesthetically pleasing
+            and functional. I’ve learned from my background in customer service how to actively
+            listen to user feedback and incorporate it into my design decisions. I’m committed to
+            designing inclusive experiences that meet user needs and I’m excited to continue
+            learning and growing in my design career.
           </p>
         </div>
       </div>
     </main>
     <main>
-      <div>
-        <div>
+      <div id="work">
+        <div class="container">
           <h2>My work</h2>
-          <div>
+          <div class="row">
             <div>
               <picture><source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
                 <img src="http://via.placeholder.com/1200x800" alt="My Image">
@@ -66,10 +71,12 @@
           </div>
           <div>
             <h3>Vamos</h3>
+            <div class="row">
             <p>vamos is a location-based web app targeted towards individuals looking to explore new places. 
               Users are able to search for activities in a location, read reviews, and leave reviews. 
             </p>
-            <a href="#">view project</a>
+            <!--view more button-->  
+            <a href="" class="button">View project</a>
           </div>
         </div>
       </div>
@@ -79,15 +86,16 @@
 
 
     <footer>
-      <div>
+      <div class="container"></div>
         <h4>Get in touch</h4>
+        <div class="row">
         <p>Feel free to contact me</p>
         <div>
         <!--contact button-->  
           <a href="cassloberg@gmail.com" class="button contact">Send me an email</a>
         </div>
         <div>
-          <a href="LINKEDIN-URL" target="_blank">
+          <a href="LINKEDIN-URL" target="contacticon">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C4.93913 2 3.92172 2.42143 3.17157 3.17157C2.42143 3.92172 2 4.93913 2 6V26C2 27.0609 
                 2.42143 28.0783 3.17157 28.8284C3.92172 29.5786 4.93913 30 6 30H26C27.0609 30 28.0783 29.5786 28.8284 28.8284C29.5786 28.0783 30 27.0609 30 26V6C30 
@@ -97,7 +105,7 @@
                 12.468H16.86V14.23C17.45 13.306 18.746 12.062 21.156 12.062C24.032 12.062 25.594 13.968 25.594 17.594C25.594 17.768 25.61 18.562 25.61 18.562V25.624H21.61V18.564C21.61 17.594 21.406 15.688 19.25 15.688C17.092 15.688 16.91 18.084 16.86 19.652V25.624H12.86V12.468V12.468Z" fill="black"></path>
             </svg>
         </a>
-        <a href="http://behance.net/cassidyloberg" target="_blank">
+        <a href="http://behance.net/cassidyloberg" target="contacticon">
             <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" 
             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M38.031,27.257c-3.174,0-3.615,
             3.168-3.615,3.168h6.748C41.164,30.425,41.207,27.257,38.031,27.257z"></path><path d="M22.721,30.425h-5.982v5.492h5.296c0.09,0,0.225,0.002,0.383,0c0.852-0.02,2.467-0.268,2.467-2.67   

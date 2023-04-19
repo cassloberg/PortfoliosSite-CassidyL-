@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/
-    8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" 
-    rel="stylesheet">
-   <meta charset="utf-8">
+   <!-- add normalize below -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/
+   8.0.0/normalize.min.css">
+   <!-- add your style.css file below that's in the css directory -->
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+   <!-- Links for font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" 
+   
+   rel="stylesheet">
+  <meta charset="utf-8">
+  <!-- instructions on how to control the page scaling and dimensions -->
 
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>Cassidy Loberg</title>
   </head>
   <body>
     <header>
-      <div>
-        <img src="https://via.placeholder.com/150x50?text=my-cool-logo" alt="Cassidy Loberg">
+      <div class="containter">
+        <a href="logo"><h2>Cassidy Loberg</h2></a>
         <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
+          <ul class="navigation">
+            <li><a href="index.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -27,24 +32,28 @@
       </div>
     </header>
     <main>
-       <div>
-        <div>
+       <div id="hero">
+          <div class="container">
           <h1>Hi, my name  is Cassidy Loberg.</h1>
-          <p>I am a UI designer based out of northern Illinois, open to remote work opportunities. 
+          <p>I am a junior UX/UI designer with a background in customer service. I am
+            passionate about creating user-centric designs that are both aesthetically pleasing
+            and functional. I’ve learned from my background in customer service how to actively
+            listen to user feedback and incorporate it into my design decisions. I’m committed to
+            designing inclusive experiences that meet user needs and I’m excited to continue
+            learning and growing in my design career.
           </p>
-          <div>
-            <picture><source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
-              <img src="http://via.placeholder.com/1200x800" alt="My Image">
-              </picture>
           </div>
         </div>
       </div>
     </main>
     <main>
-      <div>
-        <div>
+      <div id="work">
+        <div class="container">
           <h2>Global Foodie</h2>
-          <em>Introduction</em>
+          <div class="row">
+          <picture><source srcset="http://via.placeholder.com/600x400" media="(max-width:767px)">
+            <img src="http://via.placeholder.com/1200x800" alt="My Image">
+            </picture>
           <ul>
             <li>Duration: 2 months </li>
             <li>Role: UI Designer</li>
@@ -123,11 +132,13 @@
 
 
     <footer>
-      <div>
+      <div class="container">
         <h4>Get in touch</h4>
+        <div class="row">
         <p>Feel free to contact me</p>
         <div>
-          <a href>send me an email</a>
+          <!--contact button-->  
+           <a href="cassloberg@gmail.com" class="button contact">Send me an email</a>
         </div>
         <div>
           <a href="LINKEDIN-URL" target="_blank">

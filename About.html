@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/
-    8.0.0/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" 
-    rel="stylesheet">
-   <meta charset="utf-8">
+  <!-- add normalize below -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/
+  8.0.0/normalize.min.css">
+  <!-- add your style.css file below that's in the css directory -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- Links for font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" 
+  
+  rel="stylesheet">
+ <meta charset="utf-8">
+ <!-- instructions on how to control the page scaling and dimensions -->
    
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>My Story</title>
   </head>
   <body>
     <header>
-      <div>
-        <img src="https://via.placeholder.com/150x50?text=my-cool-logo" alt="Cassidy Loberg">
+      <div class="container">
+        <a href="logo"><h2>Cassidy Loberg</h2></a>
         <nav>
-          <ul>
-            <li><a href="index.html">Work</a></li>
+          <ul class="navigation">
+            <li><a href="index.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -29,8 +33,9 @@
     <div>
      <div>    
       <main>
+        <div id="hero">
+          <div class="container">
         <h1>Welcome, I'm glad you're here!</h1>
-      
      </div>
     </div>
     <div>
@@ -38,12 +43,14 @@
           <img src="img/profilepicture.jpg" alt="Profile picture">
         </picture>
     </div>
-    <div>
+    <div id="work">
+      <div class="container">
         <h2>About me</h2>
+        <div class="row">
         <p> 
           Hello, thanks for stopping by!
           My name is Cassidy and I am a UI Designer
-          located in Northern Illinois.
+          located in Northern Illinois looking for local and remote opportunities.
        <div>
           During my freetime you can find me in the gym,
           reading a book, and snuggling with my cats. I
@@ -55,7 +62,6 @@
         </p>
         <a target="_blank" href="files/CassidyLobergResume.pdf">My resume</a>
       </div>
-    <div>
       <h2>Skills and Tools</h2>
      <div>
         <h3>Skills</h3>
@@ -99,17 +105,18 @@
             Adobe Illustrator
            </li>
         </ul>
-
+ <div class="row">
     </div>
 </main>
 
 
     <footer>
-      <div>
+      <div class="container">
         <h4>Get in touch</h4>
         <p>Feel free to contact me</p>
         <div>
-          <a href="mailto:cassloberg@gmail.com">Send me an email</a>
+          <!--contact button-->  
+           <a href="cassloberg@gmail.com" class="button contact">Send me an email</a>
         </div>
         <div>
           <a href="LINKEDIN-URL" target="_blank">

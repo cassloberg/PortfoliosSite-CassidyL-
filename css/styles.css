@@ -31,18 +31,18 @@ header {
     font-weight: 700;
     color: white;
   }
-  #hero span {
+  #hero {
     background-color: white;
     padding: 20px 0;
-    display: block;
-    text-align: center;
+    display:inline-block;
+    text-align: left;
     width: 100%; 
   }
+
   
 body {font-family: 'Montserrat', sans-serif;
   }
-body {background-color: lightcoral;
-}
+
 body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
@@ -115,6 +115,9 @@ body {
   .row {
     margin: 25px 0;
   }
+
+  #work .row { padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; }
+
   #hero h1 {
     text-align: center; 
   }
@@ -152,7 +155,7 @@ header {
 nav {
   width: auto;
   float: right;
-  margin-top: -90px;
+  margin-top: -70px;
 }
 .col-md-6 {
   width: 50%;
@@ -179,6 +182,10 @@ nav > ul > li {
   display: inline-block;
 }
 
+nav > ul {
+  margin: 1em 0;
+}
+
 
 .button {
   display: inline-block;
@@ -197,9 +204,9 @@ nav > ul > li {
 }
 
 /* ==============================
-Large devices (1024px or larger)
+Large devices (1200px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -208,7 +215,7 @@ Large devices (1024px or larger)
   nav {
     width: auto;
     float:right;
-    margin-top: 4px;
+    margin-top: -70px;
   } 
 
 .row::after {
@@ -217,9 +224,3 @@ Large devices (1024px or larger)
   display: table;
 }
 }
-
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px)  
-{}

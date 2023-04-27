@@ -52,7 +52,7 @@ body {
     text-decoration: none; /* No underlining */
   }
   a:hover {
-    color: #FF4252;
+    color: black;
   }
 
   a:active { /* selected link */
@@ -145,7 +145,7 @@ nav > ul > li > a{
 
   footer {
     background-color: #FF7F50;
-    text-align: left;
+    text-align: center;
     padding: 10px 0;
     position: relative;  
 }

@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"/>
-  
-   <!-- instructions on how to control the page scaling and dimensions -->
+    <!--icon kit-->
+    <script src="https://kit.fontawesome.com/a4916cf8ed.js" crossorigin="anonymous"></script>
+   
+    <!-- instructions on how to control the page scaling and dimensions -->
      <meta name="viewport" content="width=device-width, initial-scale=1">
          <title>Cassidy Loberg</title>
 
@@ -21,12 +23,14 @@
   <body id="header">
     <header>
       <div class="container">
+         <div class="navtoggle" id="myNavtoggle">
         <a href="logo"><h2>Cassidy Loberg</h2></a>
         <nav>
           <ul class="navigation">
             <li><a href="index.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
           </ul>
         </nav>
       </div>
@@ -695,7 +699,7 @@
         <p>Feel free to contact me</p>
         <div>
         <!--contact button-->  
-          <a href="cassloberg@gmail.com" class="button contact">Send me an email</a>
+          <a href="cassloberg@gmail.com" class="button contact" onclick="menuToggle()">Send me an email</a>
         </div>
         <div id="footer.icon">
           <a href="https://www.linkedin.com/in/cassidy-loberg-389576122/" target="_blank">

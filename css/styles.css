@@ -117,7 +117,8 @@ body {
     background-color: #FF7F50;
     padding: 10px 0 4px;
 	  box-shadow: 3px 9px 38px rgba(0, 0, 0, 0.8);
-    position: relative;  
+    position: fixed;  
+    top: 0px;
     width: 100%;
 }
 
@@ -173,6 +174,7 @@ nav > ul > li > a{
   padding: 20px 0;
   display:inline-block;
   text-align: left;
+  margin-top: 120px;
   width: 100%; 
 }
 
@@ -181,6 +183,12 @@ nav > ul > li > a{
     text-align: center;
     padding: 10px 0;
     position: relative;  
+}
+
+#footer-icon {margin-top: 40px;
+}
+
+#intro {margin-top: 120px
 }
 
 main {

@@ -1,6 +1,6 @@
 /*
 Colors used:
-Primary Color (Orange): #FF7F50;
+Primary Color (Orange): #FF6127;
 Secondary Color (pink): #FF4252;
 */
 
@@ -26,7 +26,7 @@ body {
   h1 {
     font-size: 2.75em;
     font-weight: 700;
-    color:#FF4252;
+    color: #FF4252;
   }
   
   h2 {
@@ -56,14 +56,14 @@ body {
   }
 
   a:active { /* selected link */
-    color: #FF4252;
+    color: black;
   }
 
   .button {
     display: inline-block; 
-    background-color: #ff7f50;
+    background-color: #FF4252;
     color: #ffffff; /* needed to override the default link color */
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #994c30; /* width of the border, type, color */
@@ -115,7 +115,7 @@ body {
   }
 
   header {
-    background-color: #FF7F50;
+    background-color: #FF6127;
     padding: 10px 0 4px;
 	  box-shadow: 3px 9px 38px rgba(0, 0, 0, 0.8);
     position: fixed;  
@@ -163,10 +163,9 @@ nav > ul > li > a{
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid black (255,127,80,0.5);
-}
-
-.navtoggle.responsive li:last-child  {
+  border-top: 1px solid black (255,127,80,0.5)}
+  
+  .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
 
@@ -180,7 +179,7 @@ nav > ul > li > a{
 }
 
   footer {
-    background-color: #FF7F50;
+    background-color: #FF6127;
     text-align: center;
     padding: 10px 0;
     position: relative;  
